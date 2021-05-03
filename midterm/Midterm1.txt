@@ -1,0 +1,8 @@
+2a) 
+	1.25
+	false
+	B84
+
+2b)
+	1st number is 78
+	2nd number is 73
