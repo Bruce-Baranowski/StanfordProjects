@@ -1,0 +1,11 @@
+1a:
+	name == "Q" is incorrect, as it's comparing reference rather than content 
+	name.equals("Q") would fit better for string comparison
+	
+2a:
+	((ch == 'Q') && (name.length() == 1))
+	will properly check the string is equal to Q, 
+	only takes one comparison on a string that has an incorrect first character,
+	and only takes two comparisons on other strings.
+	
+	However, this code will throw an exception if fed a string of zero length.
